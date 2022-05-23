@@ -5,17 +5,11 @@
 // console.log(printRandomNumbers());
 
 
-
-
-
 // function printRandomNumberBetweenZeroToNumber(rndnumber) {
 //     var rndNum = Math.floor(Math.random()*rndnumber)
 //     return rndNum
 // }
 // console.log(printRandomNumberBetweenZeroToNumber(5));
-
-
-
 
 
 // function printSucsessOrFail(userNumber) {
@@ -31,8 +25,6 @@
 // printSucsessOrFail()
 
 
-
-
 // function pushNumbersToArray() {
 //     var array = []
 //     for (var i = 0; i < 10; i++) {    
@@ -42,10 +34,6 @@
 //     return array
 // }
 // console.log(pushNumbersToArray());
-
-
-
-
 
 
 // function printName(params)
@@ -58,22 +46,17 @@
 // console.log(returnBiggerNumber());
 
 
-
-
-
-// function printLowerNumber() {
-//     var LowerNum = 0
-//     for (var i = 0; i < 5; i++) {
-//     var userNumber = +prompt()  
-    
-// }
-//     console.log(userNumber);
-// }
-// printLowerNumber()
-
-
-
-
+function printLowerNumber() {
+    var saveNum = userNumber;
+    for (var i = 0; i < 5; i++) {
+    var userNumber = +prompt("enter Number") 
+    if (userNumber<=saveNum) {
+        saveNum = userNumber
+    }   
+    }
+    console.log(saveNum);
+}
+printLowerNumber()
 
 
 // function printMaxOrMinNumber() {
@@ -89,9 +72,6 @@
 // console.log(printMaxOrMinNumber());
 
 
-
-
-
 // function randomArray() {
 //     var array = []        
 //     for (var i = 0; i < Math.floor(Math.random()*365); i++) {
@@ -103,14 +83,12 @@
 // console.log(randomArray());
 
 
-
-
-
-function printIndex(array) {
-    var index = Math.floor(Math.random()*array.length)
-    console.log(array[index]); 
-}
-printIndex([4,5,4,8,7,2,6,4,4,4,2,2]);
+// function printIndex(array) {
+//     var index = Math.floor(Math.random()*array.length)
+//     array[index]= index
+//     console.log(array); 
+// }
+// printIndex([1,2,3,4,5,6,7,8,9]);
 
 
 // function changeChartFromSmallToBig() {
@@ -121,25 +99,25 @@ printIndex([4,5,4,8,7,2,6,4,4,4,2,2]);
 //     }
 // console.log(changeChartFromSmallToBig());
 
+
 // function printNameOrAge() {
 //     var rndNum = Math.floor(Math.random()*101)
 //     var userName = prompt("enter your name")
 //     var userName1 = prompt("enter your name")
 //     var userAge = +prompt("enter your age")
 //     var userAge1 = +prompt("enter your age")
-//     for (var i = 0; i < 1; i++) {
-//         if (userName[i]==userName1[i]) {
+//         if (userName[0].toLowerCase()==userName1[0].toLowerCase()) {
 //             console.log(rndNum);
 //         }
-//         if (userName[--userName.length]==userName1[--userName.length]) {
+//         if (userName[--userName.length].toLowerCase()==userName1[--userName.length].toLowerCase()) {
 //             console.log(userName[--userName.length], "equal" ); 
 //         }
 //         else{
 //             console.log(userAge1,userAge);
 //         }
-//     }
 // }
 // printNameOrAge()
+
 
 // function printTextTillThenEnd() {
 //     var userName = prompt()
@@ -147,6 +125,7 @@ printIndex([4,5,4,8,7,2,6,4,4,4,2,2]);
 //     console.log(userName.substring(0,rndNum));
 // }
 // printTextTillThenEnd()
+
 
 // function chackIfUserNumberModuloTree() {
 //     var userNumber = +prompt()
