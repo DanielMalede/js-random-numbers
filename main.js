@@ -106,11 +106,11 @@
 
 
 
-// function printIndex(array) {
-//     var index = Math.floor(Math.random()*array.length)
-//     console.log(array[index]); 
-// }
-// printIndex([4,5,4,8,7,2,6,4,4,4,2,2]);
+function printIndex(array) {
+    var index = Math.floor(Math.random()*array.length)
+    console.log(array[index]); 
+}
+printIndex([4,5,4,8,7,2,6,4,4,4,2,2]);
 
 
 // function changeChartFromSmallToBig() {
@@ -121,17 +121,43 @@
 //     }
 // console.log(changeChartFromSmallToBig());
 
-function printNameOrAge() {
-    var rndNum = Math.floor(Math.random()*101)
-    var userName = prompt()
-    var userName1 = prompt()
-    var userAge = +prompt()
-    var userAge1 = +prompt()
-    for (var i = 0; i < 1; i++) {
-        if (userName[i]==userName1[i]) {
-            console.log(rndNum);
-        }
+// function printNameOrAge() {
+//     var rndNum = Math.floor(Math.random()*101)
+//     var userName = prompt("enter your name")
+//     var userName1 = prompt("enter your name")
+//     var userAge = +prompt("enter your age")
+//     var userAge1 = +prompt("enter your age")
+//     for (var i = 0; i < 1; i++) {
+//         if (userName[i]==userName1[i]) {
+//             console.log(rndNum);
+//         }
+//         if (userName[--userName.length]==userName1[--userName.length]) {
+//             console.log(userName[--userName.length], "equal" ); 
+//         }
+//         else{
+//             console.log(userAge1,userAge);
+//         }
+//     }
+// }
+// printNameOrAge()
 
-    }
-    
-}
+// function printTextTillThenEnd() {
+//     var userName = prompt()
+//     var rndNum = Math.floor(Math.random()*6)
+//     console.log(userName.substring(0,rndNum));
+// }
+// printTextTillThenEnd()
+
+// function chackIfUserNumberModuloTree() {
+//     var userNumber = +prompt()
+//     var rndNum = Math.floor(Math.random()*userNumber)
+//     for (var i = 0; i < rndNum; i++) {
+//         if (userNumber%3==0) {
+//             console.log(rndNum);
+//         }        
+//         else{
+//             console.log(rndNum*2,3.14);
+//         }
+//     }
+// }
+// chackIfUserNumberModuloTree()
