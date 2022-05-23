@@ -46,17 +46,17 @@
 // console.log(returnBiggerNumber());
 
 
-function printLowerNumber() {
-    var saveNum = userNumber;
-    for (var i = 0; i < 5; i++) {
-    var userNumber = +prompt("enter Number") 
-    if (userNumber<=saveNum) {
-        saveNum = userNumber
-    }   
-    }
-    console.log(saveNum);
-}
-printLowerNumber()
+// function printLowerNumber() {
+//     var saveNum =+prompt("enter Number") ;
+//     for (var i = 0; i < 2; i++) {
+//     var userNumber = +prompt("enter Number") 
+//         if (userNumber<saveNum) {
+//             saveNum = userNumber
+//         }   
+//     }
+//     console.log(saveNum);
+// }
+// printLowerNumber()
 
 
 // function printMaxOrMinNumber() {
